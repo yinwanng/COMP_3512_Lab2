@@ -6,9 +6,10 @@ public:
 	Stack();
 	void push(int);
 	void pop();
+	int top();
 private:
 	int stack[array_size];
-	int top;
+	int topIndex;
 };
 
 
