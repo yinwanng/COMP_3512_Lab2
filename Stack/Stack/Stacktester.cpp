@@ -4,6 +4,7 @@
 using std::cout;
 using std::endl;
 
+// This is the entry point of the application to test the Stack class.
 int main()
 {
 	Stack s1;
