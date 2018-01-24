@@ -10,7 +10,6 @@ public:
 	int top() const;
 	bool empty() const;
 	void print();
-	int getTopIndex() const;
 private:
 	int stack[SIZE];
 	int topIndex;
