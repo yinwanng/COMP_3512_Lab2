@@ -1,5 +1,6 @@
 #include <string>
-constexpr int array_size = 10;
+//constexpr int array_size = 10;
+#define SIZE 10
 class Stack
 {
 public:
@@ -9,13 +10,8 @@ public:
 	int top() const;
 	bool empty() const;
 	void print();
+	int getTopIndex() const;
 private:
-	int stack[array_size];
+	int stack[SIZE];
 	int topIndex;
 };
-
-
-
-
-
-
