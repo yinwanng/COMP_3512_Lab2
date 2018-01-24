@@ -8,10 +8,13 @@ public:
 	void pop();
 	int top() const;
 	bool empty() const;
+	void print();
 private:
 	int stack[array_size];
 	int topIndex;
 };
+
+
 
 
 
