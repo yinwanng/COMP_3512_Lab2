@@ -4,6 +4,7 @@ class Stack
 {
 public:
 	Stack();
+	void push(int);
 private:
 	int stack[array_size];
 	int top;
