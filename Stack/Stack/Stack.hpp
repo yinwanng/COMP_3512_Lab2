@@ -9,7 +9,8 @@ public:
 	void pop();
 	int top() const;
 	bool empty() const;
-	void print();
+	bool full() const;
+	void print() const;
 private:
 	int stack[SIZE];
 	int topIndex;
